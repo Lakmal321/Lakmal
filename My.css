@@ -1,0 +1,186 @@
+body {
+  background-color:rgb(10, 24, 24);
+  color: gold;
+  font-family: cursive;
+  margin: 0; /* Remove default body margin */
+  height: 100vh; /* Ensure the body takes the full height of the viewport */
+}
+
+.container {
+  display: flex;
+  justify-content: center; /* Centers items horizontally */
+  align-items: flex-start; /* Align items to the top of the container */
+  height: 2%; /* Fill the height of the body */
+  margin-top: 50px; /* Adjust as needed to add space from the top */
+}
+.container1{
+  display: flex;
+  margin-top:5px;
+  height: 10%;
+  
+}
+.container2{
+  margin-top: 30px;
+}
+#box1, #box2, #box3, #box4, #box5, #box6, #box7, #box8 , #box9 , #box10 {
+  text-align:center;
+  font-size: 50px;
+  width: 50px;
+  font-family: cursive;
+  height: 50px;
+  border: 5px solid rgb(10,24,24);
+  border-radius: 48px;
+  background-color:rgb(10,24,24);
+  
+}
+
+#box1 {
+  animation-name: slideLeft1;
+  animation-duration: 8s;
+}
+
+#box2 {
+  animation-name: slideLeft2;
+  animation-duration: 7s;
+}
+
+#box3 {
+  animation-name: slideLeft3;
+  animation-duration: 6s;
+}
+
+#box4 {
+  animation-name: slideLeft4;
+  animation-duration: 5s;
+}
+
+#box5 {
+  animation-name: slideLeft5;
+  animation-duration: 4s;
+}
+
+#box6 {
+  animation-name: slideLeft6;
+  animation-duration: 3s;
+}
+
+#box7 {
+  animation-name: slideLeft7;
+  animation-duration: 2s;
+}
+
+#box8 {
+  animation-name: slideLeft8;
+  animation-duration: 1s;
+}
+#box9 {
+  animation-name: slideLeft9;
+  animation-duration:7s;
+}
+#box10{
+  animation-name: slideLeft10;
+  animation-duration:2s;
+}
+#box11{
+  animation-name:SlideUp;
+  animation-duration:1s;
+}
+@keyframes SlideUp{
+  from{
+    transform: translateY(300%);
+  }
+  to{
+    transform: translatY(0%)
+  }
+}
+@keyframes slideLeft9 {
+  from{
+    transform: translateX(300%);
+  }
+  to{
+    transform: translateX(0%);
+  }
+}
+@keyframes slideLeft10{
+  from{
+    transform: translateX(300%);
+  }
+  to{
+    transform: translateX(0%);
+  }
+}
+
+
+@keyframes slideLeft1 {
+  from {
+    transform: translateX(300%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes slideLeft2 {
+  from {
+    transform: translateX(300%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes slideLeft3 {
+  from {
+    transform: translateX(300%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+@keyframes slideLeft4{
+  from{
+  transform: translateX(300%);
+}
+  to{
+    transform:translateX(0%);
+  }
+}
+@keyframes slideLeft5{
+  from{
+  transform: translateX(300%);
+}
+  to{
+    transform:translateX(0%);
+  }
+}
+@keyframes slideLeft6{
+  from{
+  transform: translateX(300%);
+}
+  to{
+    transform:translateX(0%);
+  }
+}
+@keyframes slideLeft7{
+  from{
+  transform: translateX(300%);
+}
+  to{
+    transform:translateX(0%);
+  }
+}
+@keyframes slideLeft8{
+  from{
+  transform: translateX(300%);
+}
+  to{
+    transform:translateX(0%);
+  }
+}
+
+h1{
+  margin-left: 20%;
+}
+pre {
+  font-size:20px;
+}
